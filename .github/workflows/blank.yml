@@ -1,0 +1,9 @@
+name: ahmed
+on: push
+jobs:
+  j1:
+    runs-on: ubontu-latest
+    steps:
+    - name: step0
+      run: echo "hi"
+      
